@@ -30,6 +30,27 @@ export PATH="$PATH":"$HOME/.pub-cache/bin"
 
 Add this to your shell config file (`.zshrc`, `.bashrc`, etc.) for persistence.
 
+## 📦 To Activate and Run It Globally
+
+Once the tool is published (or if you're activating it from a local path), use the following command:
+
+```bash
+dart pub global activate splashkit
+```
+
+If your `pubspec.yaml` contains:
+
+```yaml
+executables:
+  run_splashkit: update_android_splash
+```
+
+You can run the tool globally using:
+
+```bash
+run_splashkit
+```
+
 ---
 
 ## 🧪 Usage
