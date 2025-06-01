@@ -171,6 +171,7 @@ dependencies {
     stderr.writeln(
       '❌ MainActivity.kt not found! Please ensure it exists at the correct path.',
     );
+    return;
   } else {
     var mainActivityContent = mainActivityFile.readAsStringSync();
 

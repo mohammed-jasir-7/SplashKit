@@ -16,46 +16,81 @@
 
 ## 📦 Installation
 
-### Activate globally:
+## Installation & Usage
+
+### Run Locally (Inside Your Project)
+
+If you have SplashKit added as a dev dependency or are inside its folder, run:
 
 ```bash
-dart pub global activate splashkit
+dart run splashkit
 ```
 
-> **Note:** Ensure Dart’s global bin is in your PATH:
+
+
+## 🛠️ Install Globally (Recommended)
+
+#### windows :
+To use SplashKit from anywhere in your terminal, install it globally:
+
+### 1. Activate the package globally
+
+```cmd
+dart pub global activate --source=path .
+```
+
+_(Run the above command inside your SplashKit project folder.)_
+
+### 2. Add Dart’s global executables folder to your system `PATH`
+
+- Open **System Properties** → **Environment Variables**
+- Under **User variables**, find or create a variable named `Path`
+- Add:
+
+```
+%USERPROFILE%\AppData\Local\Pub\Cache\bin
+```
+
+### 3. Restart your terminal
+
+After updating your environment variables, restart your terminal (Command Prompt, PowerShell, etc.).
+
+### ✅ Done!
+
+Now, you can run SplashKit anywhere:
+
+```cmd
+splashkit
+```
+
+#### macOS/Linux :
+To use SplashKit from anywhere in your terminal, install it globally:
+
+### 1. Activate the package globally
 
 ```bash
-export PATH="$PATH":"$HOME/.pub-cache/bin"
+dart pub global activate --source=path .
 ```
 
-Add this to your shell config file (`.zshrc`, `.bashrc`, etc.) for persistence.
+_(Run the above command inside your SplashKit project folder.)_
 
-## 📦 To Activate and Run It Globally
-
-Once the tool is published (or if you're activating it from a local path), use the following command:
+### 2. Add Dart’s global executables folder to your system `PATH`
 
 ```bash
-dart pub global activate splashkit
+export PATH="$PATH:$HOME/.pub-cache/bin"
 ```
 
-If your `pubspec.yaml` contains:
+> Add the above line to your shell config file (`~/.zshrc`, `~/.bashrc`, or `~/.bash_profile`) to make it permanent.
 
-```yaml
-executables:
-  run_splashkit: update_android_splash
-```
-
-You can run the tool globally using:
+### 3. Reload your shell configuration
 
 ```bash
-run_splashkit
+source ~/.zshrc  # or source ~/.bashrc or ~/.bash_profile
 ```
 
----
+### ✅ Done!
 
-## 🧪 Usage
-
-In the root of your Flutter project, run:
+Now, you can run SplashKit anywhere:
 
 ```bash
 splashkit
