@@ -39,6 +39,11 @@ In the root of your Flutter project, run:
 ```bash
 splashkit
 ```
+## 📁 Sample AVD
+
+You can use this sample [Animated Vector Drawable](https://developer.android.com/reference/android/graphics/drawable/AnimatedVectorDrawable) to test the plugin:
+
+🔗 [Download sample_avd.xml](https://raw.githubusercontent.com/mohammed-jasir-7/splashkit/main/example/assets/sample_avdxml)
 
 SplashKit will:
 
@@ -82,6 +87,7 @@ avd_splash:
 
 - Flutter app targeting Android 12 (API 31+) or newer
 - A valid [AVD XML](https://developer.android.com/reference/android/graphics/drawable/AnimatedVectorDrawable) file
+- compileSdkVersion 35 or above 
 
 ---
 
