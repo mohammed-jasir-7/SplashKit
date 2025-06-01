@@ -1,8 +1,3 @@
-## Support Me ☕
-If you enjoy my work, consider buying me a coffee!
-
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-yellow?style=for-the-badge&logo=buy-me-a-coffee)](https://buymeacoffee.com/mohammedjasir)
-
 
 # 🌊 SplashKit
 
@@ -61,7 +56,7 @@ Add a block to your `pubspec.yaml`:
 avd_splash:
   animated_icon: assets/animated_icon.xml
   post_theme: AppTheme
-  package_name: com.example.myapp
+  package: com.example.myapp
 ```
 
 | Key             | Description                                                         |
@@ -71,23 +66,6 @@ avd_splash:
 | `package_name` | Your app’s package name (as used in `AndroidManifest.xml`)          |
 
 ---
-
-## 📁 Example Project Layout
-
-```
-my_flutter_app/
-├── assets/
-│   └── animated_icon.xml
-├── pubspec.yaml
-└── android/
-    └── app/
-        ├── build.gradle
-        ├── src/
-        │   └── main/
-        │       ├── AndroidManifest.xml
-        │       ├── kotlin/com/example/myapp/MainActivity.kt
-        │       └── res/values/styles.xml
-```
 
 ---
 
@@ -114,6 +92,13 @@ my_flutter_app/
 - [ ] Web and desktop splash support
 
 ---
+
+## Support Me ☕
+If you enjoy my work, consider buying me a coffee!
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-yellow?style=for-the-badge&logo=buy-me-a-coffee)](https://buymeacoffee.com/mohammedjasir)
+
+
 
 ## 🙋 Author
 
