@@ -82,4 +82,4 @@ dev_dependencies:
   # For details regarding fonts in packages, see
   # https://flutter.dev/to/font-from-package
 executables:
-  splashkit: splashkit.dart
+  splashkit: splashkit
