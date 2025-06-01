@@ -1,3 +1,5 @@
+https://buymeacoffee.com/mohammedjasir
+
 # 🌊 SplashKit
 
 **SplashKit** is a Dart CLI tool that automates the creation and configuration of native Android 12+ splash screens using **Animated Vector Drawable (AVD)** for Flutter apps.
