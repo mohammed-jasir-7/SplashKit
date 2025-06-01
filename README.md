@@ -102,7 +102,7 @@ If you enjoy my work, consider buying me a coffee!
 
 ## 🙋 Author
 
-Built with ❤️ by [Mohammed Jasir](https://github.com/mjasir)
+Built with ❤️ by [Jasir Bin Shihabudeen](https://github.com/mohammed-jasir-7)
 
 > Contributions welcome! Star ⭐️ the repo and open issues/PRs to improve it!
 
