@@ -1,8 +1,8 @@
 name: splashkit
-description: "A new Flutter plugin project."
+description: "A CLI tool to add Android native splash screen using AVD in Flutter apps."
 version: 0.0.1
-homepage:
-
+homepage: https://github.com/mohammed-jasir-7/splashkit
+repository: https://github.com/mohammed-jasir-7/splashkit
 environment:
   sdk: ^3.8.0
   flutter: '>=3.3.0'

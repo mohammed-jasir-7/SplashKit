@@ -99,7 +99,7 @@ splashkit
 
 You can use this sample [Animated Vector Drawable](https://developer.android.com/reference/android/graphics/drawable/AnimatedVectorDrawable) to test the plugin:
 
-🔗 [Download sample_avd.xml](https://raw.githubusercontent.com/mohammed-jasir-7/splashkit/main/example/assets/sample_avdxml)
+🔗 [Download sample_avd.xml](https://github.com/mohammed-jasir-7/Files/blob/main/animation.xml)
 
 SplashKit will:
 
