@@ -83,3 +83,11 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+
+    
+
+avd_splash:
+  animated_icon: assets/animation.xml
+  post_theme: AppTheme # optional
+  package: com.example.splashkit_example # optional, defaults to the package name
